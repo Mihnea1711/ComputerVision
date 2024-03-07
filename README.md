@@ -29,6 +29,10 @@ The lane detection pipeline consists of the following steps:
 - Apply a mask to the Canny edges.
 - Overlay the detected edges on the original image.
 
+![Initial Image](p1_lane_detection/um_000093.png)
+![Output Image](p1_lane_detection/output_image.png)
+
+
 ### Week #2 Advanced Lane Detection by Fitting Lines Using Hough Transform
 
 #### Project Overview
@@ -47,3 +51,8 @@ The algorithm records all possible lines on which each edge point lies and ident
 - Canny Edge Detection: Isolates edges in the image.
 - Bitwise And Function: Isolates edges corresponding to lane lines.
 - Hough Transform: Converts edges into lines for lane detection.
+
+![Initial Image](p2_adv_lane_detection/um_000093.png)
+![Output Image](p2_adv_lane_detection/output_image.png)
+
+
