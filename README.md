@@ -116,7 +116,4 @@ Hu Moments describe the arrangement of pixels inside a curve by combining area, 
 
 Hu Moments offer a compact and invariant representation of shapes, suitable for various image recognition tasks.
 
-!['A' Letter Image](p2_w1_license_plate_recognition/letters/a (1).png)
-!['B' Letter Image](p2_w1_license_plate_recognition/letters/b (1).png)
-
 
