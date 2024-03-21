@@ -29,8 +29,8 @@ The lane detection pipeline consists of the following steps:
 - Apply a mask to the Canny edges.
 - Overlay the detected edges on the original image.
 
-![Initial Image](p1_lane_detection/um_000093.png)
-![Output Image](p1_lane_detection/output_image.png)
+![Initial Image](p1_w1_lane_detection/um_000093.png)
+![Output Image](p1_w1_lane_detection/output_image.png)
 
 
 ### Week #2 Advanced Lane Detection by Fitting Lines Using Hough Transform
@@ -52,8 +52,8 @@ The algorithm records all possible lines on which each edge point lies and ident
 - Bitwise And Function: Isolates edges corresponding to lane lines.
 - Hough Transform: Converts edges into lines for lane detection.
 
-![Initial Image](p2_adv_lane_detection/um_000093.png)
-![Output Image](p2_adv_lane_detection/output_image.png)
+![Initial Image](p1_w2_adv_lane_detection/um_000093.png)
+![Output Image](p1_w2_adv_lane_detection/output_image.png)
 
 
 ### Week #3: Evaluating Performance of Our Solution
@@ -82,9 +82,8 @@ When trying out different segmentation methods, it's crucial to evaluate their p
   1. TP, TN, FN, FP
   2. Accuracy, Mean IoU, Precision, Recall, F-measure
 
-You can find the Kitti Lane Detection dataset annotated images and annotations at the following links:
-
-Stay tuned for the results and analysis of our solution's performance on the Kitti Lane Detection dataset.
+![Initial Image](p1_w3_algorithm_evaluation/um_000000.png)
+![Output Image](p1_w3_algorithm_evaluation/um_lane_000000.png)
 
 ### Project #2 Week #1: License Plate Text Recognition
 
