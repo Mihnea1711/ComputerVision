@@ -116,4 +116,49 @@ Hu Moments describe the arrangement of pixels inside a curve by combining area, 
 
 Hu Moments offer a compact and invariant representation of shapes, suitable for various image recognition tasks.
 
+### Project #2 Week #2: Classification using SVM
+
+Support Vector Machine (SVM) is a discriminative classifier formally defined by a separating hyperplane. Given labeled training data, the algorithm outputs an optimal hyperplane that categorizes new examples. 
+
+#### Understanding the Optimal Hyperplane:
+
+In the context of SVM, the term "optimal" refers to the hyperplane that maximizes the margin between different classes in the feature space. This margin represents the distance between the hyperplane and the closest data points, which are called support vectors.
+
+#### Computing the Optimal Hyperplane:
+
+The SVM algorithm operates by finding the hyperplane that maximizes the margin of the training data. The margin, defined as the distance between the hyperplane and the support vectors, plays a crucial role in determining the effectiveness of the classifier.
+
+#### Implementation Details:
+- SVM parameters are set using OpenCV's `cv2.ml.SVM_create()` function.
+- Training data is prepared by extracting features and scaling them to a specific range.
+- Features are extracted using Fourier Descriptors (FD) and Hu Moments.
+- SVM is trained separately using FD, Hu Moments, and a combination of both.
+- Testing is performed on sample images, and predictions are made based on the trained SVM models.
+
+#### Code Implementation:
+```python
+# Set SVM parameters
+svm = cv2.ml.SVM().create()
+svm.setType(cv2.ml.SVM_C_SVC)  		# Use C-Support Vector Classification
+svm.setKernel(cv2.ml.SVM_LINEAR)  	# Use Linear kernel
+
+# Extract Fourier descriptors (FD) and Hu moments for each image
+# Train the SVM
+svm.train(trainingData, cv2.ml.ROW_SAMPLE, class_labels)
+
+# Test on random image with FD + Hu Moments
+# Compute features for the image
+# Feed data to SVM and get prediction
+```
+
+
+#### Importance of Support Vectors:
+
+Support vectors are the training examples closest to the hyperplane and play a crucial role in defining the optimal hyperplane. They determine the margin and are essential for generalization to new data.
+
+#### Conclusion:
+
+SVM offers an effective approach for classification tasks by finding the hyperplane that maximizes the margin between classes. Understanding the concepts of margin, support vectors, and the optimal hyperplane is fundamental to effectively apply SVM in various classification problems.
+
+
 
