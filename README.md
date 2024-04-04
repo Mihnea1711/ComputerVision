@@ -161,4 +161,28 @@ Support vectors are the training examples closest to the hyperplane and play a c
 SVM offers an effective approach for classification tasks by finding the hyperplane that maximizes the margin between classes. Understanding the concepts of margin, support vectors, and the optimal hyperplane is fundamental to effectively apply SVM in various classification problems.
 
 
+### Project #3 Week #1: Image Stitching - Creating Panoramas
 
+#### Introduction
+This project focuses on creating panoramas from multiple images captured in a sequence. The goal is to stitch together adjacent images seamlessly to create a wide-angle view of the scene.
+
+#### Steps Involved
+    Feature Detection and Description:
+        Utilize the Scale-Invariant Feature Transform (SIFT) algorithm to detect keypoints and compute descriptors for each image.
+        Extract keypoints and descriptors from each image in the sequence.
+
+    Feature Matching:
+        Use a feature matching algorithm (e.g., FLANN matcher) to match descriptor vectors between adjacent images.
+        Filter matches using Lowe's ratio test to retain only good matches.
+
+    Panorama Construction:
+        Use the matched keypoints to estimate the transformation (e.g., homography) between adjacent images.
+        Warp and blend images together to create a seamless panorama.
+
+##### Implementation
+    Implement SIFT algorithm for feature detection and description.
+    Utilize FLANN matcher for feature matching.
+    Implement Lowe's ratio test for filtering matches.
+    Use OpenCV functions to estimate transformations and create panoramas.
+
+![Stiched Image](p3-w1-sift/image.png)
