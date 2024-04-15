@@ -186,3 +186,35 @@ This project focuses on creating panoramas from multiple images captured in a se
     Use OpenCV functions to estimate transformations and create panoramas.
 
 ![Stiched Image](p3-w1-sift/image.png)
+
+### Project #3 Week #2: Advanced Image Stitching
+#### Introduction
+In Week 2 of Project 3, we delve into advanced techniques for image stitching, focusing on refining the stitching process and improving the quality of the panoramas generated.
+
+#### Objectives
+    Implement advanced feature detection algorithms to enhance keypoint detection.
+    Explore robust matching techniques for more accurate keypoint matching across images.
+    Refine the homography estimation process to improve alignment between images.
+    Enhance blending methods to seamlessly merge adjacent images in the panorama.
+
+#### Key Concepts
+    - Advanced Feature Detection:
+    In addition to SIFT, we explore other feature detection algorithms such as SURF (Speeded-Up Robust Features) and ORB (Oriented FAST and Rotated BRIEF) to identify keypoints in images more efficiently.
+
+    - Improved Matching Techniques:
+    We experiment with more sophisticated matching algorithms, including FLANN (Fast Library for Approximate Nearest Neighbors) and Brute-Force matching, to find correspondences between keypoints with higher accuracy.
+
+    - Homography Refinement:
+    Refining the homography estimation process involves optimizing parameters such as the number of matches required and the RANSAC threshold to obtain a more precise transformation between images.
+
+    - Enhanced Blending Methods:
+    Blending adjacent images in the panorama is crucial for achieving seamless transitions. We explore advanced blending techniques such as multi-band blending and feathering to improve the visual quality of the stitched panoramas.
+
+#### Implementation Details
+    Feature Detection: Utilize OpenCV's SURF and ORB algorithms for keypoint detection and descriptor computation.
+    Matching Techniques: Experiment with FLANN and Brute-Force matching algorithms for feature matching.
+    Homography Refinement: Fine-tune parameters such as the minimum number of matches and RANSAC threshold for homography estimation.
+    Blending Methods: Implement multi-band blending and feathering techniques to blend adjacent images seamlessly.
+
+![Stiched Image](p3-w2-ransac/Stitched_Panorama.png)
+![Stiched Image](p3-w2-ransac/Stitched_Panorama_campus.png)
