@@ -218,3 +218,35 @@ In Week 2 of Project 3, we delve into advanced techniques for image stitching, f
 
 ![Stiched Image](p3-w2-ransac/Stitched_Panorama.png)
 ![Stiched Image](p3-w2-ransac/Stitched_Panorama_campus.png)
+
+### Project #4 Week #1: Stereo Object Detection
+
+#### Introduction
+Project #4 Week #1 focuses on stereo vision and object detection using stereo images. Stereo vision involves capturing images from two slightly different viewpoints, mimicking the human binocular vision. By analyzing the disparities between corresponding points in the stereo images, we can infer depth information and detect objects in the scene.
+
+#### Objectives
+1. Implement stereo vision algorithms for computing depth maps from stereo image pairs.
+2. Utilize depth maps to detect objects within a specified range.
+3. Visualize objects detected in the scene based on depth information.
+
+#### Implementation Details
+- **Stereo Vision Algorithms:** Implement stereo matching algorithms such as Block-Matching and Semi-Global Block Matching (SGBM) to compute depth maps from stereo image pairs.
+- **Object Detection:** Use depth information to detect objects within predefined depth ranges, enabling the segmentation of objects based on their distance from the stereo camera.
+- **Visualization:** Visualize the detected objects in the scene by overlaying depth-based masks onto the original images, providing insights into the spatial distribution of objects.
+
+#### Code Implementation
+- **Block-Matching Algorithm:** Implement the Block-Matching algorithm to compute the initial depth map from stereo images.
+- **Semi-Global Block Matching (SGBM):** Utilize the SGBM algorithm for more accurate depth estimation and object detection.
+- **Depth-based Object Segmentation:** Apply depth thresholding to segment objects within specified depth ranges, enabling selective visualization of objects at different distances.
+
+#### Expected Output
+- Depth Maps: Visualize the computed depth maps, highlighting disparities between corresponding points in the stereo images.
+- Object Masks: Overlay depth-based masks onto the original images, indicating the presence of objects within predefined depth ranges.
+- Depth-based Visualization: Display the stereo images with objects segmented based on their distance from the stereo camera, providing insights into the scene's spatial structure.
+
+#### Conclusion
+Project #4 Week #1 introduces stereo vision and object detection techniques, offering insights into the spatial layout of scenes and enabling applications such as obstacle detection, 3D reconstruction, and augmented reality. By leveraging stereo images and depth information, we can enhance perception and understanding of the environment, paving the way for advanced computer vision applications.
+
+![Image](p4_w1_object_detection/images/window_sizes.png)
+![Image](p4_w1_object_detection/images/objects.png)
+
