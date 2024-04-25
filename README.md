@@ -250,3 +250,49 @@ Project #4 Week #1 introduces stereo vision and object detection techniques, off
 ![Image](p4_w1_object_detection/images/window_sizes.png)
 ![Image](p4_w1_object_detection/images/objects.png)
 
+### Project #4 Week #2: Obstacle detection based on disparity maps (Continue)
+#### Introduction
+In Week 2 of Project #4, we delve into advanced techniques for stereo object detection, focusing on refining the detection process and improving the accuracy of object segmentation in stereo images.
+
+#### Objectives
+    Implement advanced stereo matching algorithms for more accurate depth estimation.
+    Explore machine learning-based approaches for object detection and segmentation in stereo images.
+    Enhance visualization techniques for displaying detected objects and depth information.
+
+#### Key Concepts
+  - Advanced Stereo Matching:
+  We explore advanced stereo matching algorithms such as Graph Cuts and Semi-Global Matching (SGM) to improve depth estimation accuracy and handle challenging stereo image pairs effectively.
+
+  - Machine Learning for Object Detection:
+  Leveraging machine learning techniques such as Convolutional Neural Networks (CNNs) for object detection and segmentation, we aim to achieve robust and accurate detection of objects in stereo images.
+
+  - Visualization Enhancements:
+  Enhancing visualization techniques to provide more informative displays of detected objects, depth maps, and stereo image pairs, facilitating better understanding and analysis of the scene.
+
+#### Implementation Details
+  - Advanced Stereo Matching Algorithms:
+  Implement Graph Cuts and Semi-Global Matching (SGM) algorithms for more accurate depth estimation from stereo image pairs.
+
+  - Machine Learning-based Object Detection:
+  Explore the integration of CNN-based object detection models trained on stereo image datasets for robust object detection and segmentation.
+
+  - Visualization Enhancements:
+  Enhance visualization techniques by incorporating depth maps, object masks, and stereo image pairs into informative visualizations, aiding in scene analysis and understanding.
+
+#### Code Implementation
+  - Graph Cuts Algorithm: Implement the Graph Cuts algorithm for stereo matching and depth estimation, considering both local and global constraints for accurate disparity maps.
+
+  - Semi-Global Matching (SGM): Utilize the SGM algorithm for dense stereo matching, optimizing over multiple paths to improve depth estimation accuracy.
+
+  - CNN-based Object Detection: Integrate pre-trained CNN models such as YOLO or SSD for object detection and segmentation in stereo images, leveraging learned features for robust detection performance.
+
+#### Expected Output
+  - Improved Depth Maps: Visualize more accurate and detailed depth maps obtained through advanced stereo matching algorithms, highlighting fine disparities between corresponding points in stereo image pairs.
+
+  - Enhanced Object Detection: Detect and segment objects in stereo images with higher accuracy and robustness using machine learning-based approaches, providing precise object boundaries and classifications.
+
+  - Informative Visualizations: Present informative visualizations that combine depth maps, object masks, and stereo image pairs to offer comprehensive insights into the scene's structure and content.
+
+![Image](p4_w2_object_detection/images/images.png)
+![Image](p4_w2_object_detection/images/maps.png)
+![Image](p4_w2_object_detection/images/detected.png)
