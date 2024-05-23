@@ -296,3 +296,71 @@ In Week 2 of Project #4, we delve into advanced techniques for stereo object det
 ![Image](p4_w2_object_detection/images/images.png)
 ![Image](p4_w2_object_detection/images/maps.png)
 ![Image](p4_w2_object_detection/images/detected.png)
+
+
+### Project #5 Week 1-2: Object Detection Using Neural Networks
+#### Objective:
+The objective of this lab is to develop an understanding of object detection using neural networks, particularly focusing on semantic vision and its applications. We will explore various challenges in object detection and train a custom YOLOv5 model to detect objects within a given dataset.
+
+#### Duration:
+    Week 1-2/3: Introduction to semantic vision and object detection, dataset preparation, and annotation.
+    Week 2-3: Training and evaluating the YOLOv5 model on the prepared dataset.
+
+#### Key Concepts:
+    - Semantic Vision:
+        Semantic vision involves extracting meaning from visual data by understanding objects and their relationships within an image.
+        It is crucial for applications such as autonomous driving, medical imaging, industrial inspection, and terrain classification.
+
+    - Challenges in Object Detection:
+        Variable viewpoint
+        Variable illumination
+        Scale variation
+        Deformation
+        Occlusion
+        Background clutter
+        Intra-class variations
+
+    - Object Detection Techniques:
+        Machine Learning-based Approaches: Utilizing traditional computer vision techniques and regression models.
+        Deep Learning-based Approaches: Employing convolutional neural networks (CNNs) for end-to-end object detection.
+
+#### Project Tasks:
+    - Prepare the Dataset:
+        Each student will work with a unique dataset.
+        Annotate all objects of the four most relevant classes within the train and test subsets.
+        Refer to the annotation procedure at the provided YOLOv5 custom training tutorial.
+
+    - Train the Model:
+        Utilize Google Colab for training.
+        Train the YOLOv5 model on the annotated dataset.
+
+    - Test the Model:
+        Run the trained model on the test subset.
+        Evaluate and compare the performance metrics.
+
+#### Expected Outcomes:
+    - Annotations Upload:
+        Upload the annotated datasets for both train and test subsets to the specified folder in Google Drive.
+
+    - Detection Results:
+        Run the detector on test images and upload the results to the specified folder.
+
+    - Training Output:
+        Upload the training output folder to Google Drive.
+        Inspect and compare evaluation metrics and sample predictions.
+
+![Image](p5_w2_object_detection_rnn/images/roboflow_graphs.png)
+![Image](p5_w2_object_detection_rnn/images/roboflow_dataset_stats.png)
+![Image](p5_w2_object_detection_rnn/images/roboflow_dataset_props.png)
+
+<p align="center">
+  <img src="p5_w2_object_detection_rnn/images/detection1.png" alt="Description of Image 1" width="200" style="margin: 5px;" />
+  <img src="p5_w2_object_detection_rnn/images/detection2.png" alt="Description of Image 2" width="200" style="margin: 5px;" />
+  <img src="p5_w2_object_detection_rnn/images/detection3.png" alt="Description of Image 3" width="200" style="margin: 5px;" />
+</p>
+
+<p align="center">
+  <img src="p5_w2_object_detection_rnn/images/detection4.png" alt="Description of Image 4" width="200" style="margin: 5px; border: 2px solid black;" />
+  <img src="p5_w2_object_detection_rnn/images/detection5.png" alt="Description of Image 5" width="200" style="margin: 5px; border-radius: 15px;" />
+</p>
+
