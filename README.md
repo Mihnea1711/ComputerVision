@@ -349,18 +349,18 @@ The objective of this lab is to develop an understanding of object detection usi
         Upload the training output folder to Google Drive.
         Inspect and compare evaluation metrics and sample predictions.
 
-![Image](p5_w2_object_detection_rnn/images/roboflow_graphs.png)
-![Image](p5_w2_object_detection_rnn/images/roboflow_dataset_stats.png)
-![Image](p5_w2_object_detection_rnn/images/roboflow_dataset_props.png)
+![Image](p5_w12_object_detection_rnn/images/roboflow_graphs.png)
+![Image](p5_w12_object_detection_rnn/images/roboflow_dataset_stats.png)
+![Image](p5_w12_object_detection_rnn/images/roboflow_dataset_props.png)
 
 <p align="center">
-  <img src="p5_w2_object_detection_rnn/images/detection1.png" alt="Description of Image 1" width="200" style="margin: 5px;" />
-  <img src="p5_w2_object_detection_rnn/images/detection2.png" alt="Description of Image 2" width="200" style="margin: 5px;" />
-  <img src="p5_w2_object_detection_rnn/images/detection3.png" alt="Description of Image 3" width="200" style="margin: 5px;" />
+  <img src="p5_w12_object_detection_rnn/images/detection1.png" alt="Description of Image 1" width="200" style="margin: 5px;" />
+  <img src="p5_w12_object_detection_rnn/images/detection2.png" alt="Description of Image 2" width="200" style="margin: 5px;" />
+  <img src="p5_w12_object_detection_rnn/images/detection3.png" alt="Description of Image 3" width="200" style="margin: 5px;" />
 </p>
 
 <p align="center">
-  <img src="p5_w2_object_detection_rnn/images/detection4.png" alt="Description of Image 4" width="200" style="margin: 5px; border: 2px solid black;" />
-  <img src="p5_w2_object_detection_rnn/images/detection5.png" alt="Description of Image 5" width="200" style="margin: 5px; border-radius: 15px;" />
+  <img src="p5_w12_object_detection_rnn/images/detection4.png" alt="Description of Image 4" width="200" style="margin: 5px; border: 2px solid black;" />
+  <img src="p5_w12_object_detection_rnn/images/detection5.png" alt="Description of Image 5" width="200" style="margin: 5px; border-radius: 15px;" />
 </p>
 
